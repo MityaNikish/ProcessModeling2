@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="vector3D.cpp">
+      <Filter>TrivialGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix3D.cpp">
+      <Filter>TrivialGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Container</Filter>
+    </ClCompile>
+    <ClCompile Include="solver_GDE.cpp">
+      <Filter>TVD LV</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types.h" />
+    <ClInclude Include="vector3D.h">
+      <Filter>TrivialGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix3D.h">
+      <Filter>TrivialGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="solver_GDE.h">
+      <Filter>TVD LV</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="TrivialGeometry">
+      <UniqueIdentifier>{d0cf6f98-af4c-4406-88a0-94d93d7699b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container">
+      <UniqueIdentifier>{4e27beba-6d20-4b17-956d-08b78135235b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TVD LV">
+      <UniqueIdentifier>{1037f1a0-26c4-408b-8cf8-82fb6af3009b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{7555a70a-636d-48e9-8ece-48b621dbb352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Treatment\grid_info.txt" />
+  </ItemGroup>
+</Project>
